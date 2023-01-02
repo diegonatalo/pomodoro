@@ -16,7 +16,7 @@
 <p align="center">
  <a href="#-sobre-o-projeto">Sobre o Projeto</a> •
  <a href="#-tecnologias">Tecnologias</a> •
-  <a href="#-configurando-o-ambiente-de-desenvolvimento">Configurando o Ambiente</a> •
+  <a href="#-configurando-o-ambiente">Configurando o Ambiente</a> •
  <a href="#-licença">Licença</a>
 </p>
 
