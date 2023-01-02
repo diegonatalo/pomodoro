@@ -16,7 +16,7 @@
 <p align="center">
  <a href="#-sobre-o-projeto">Sobre o Projeto</a> •
  <a href="#-tecnologias">Tecnologias</a> •
- <a href="#-configurações-necessárias">Configurações necessárias</a> •
+  <a href="#-configurando-o-ambiente-de-desenvolvimento">Configurando o Ambiente</a> •
  <a href="#-licença">Licença</a>
 </p>
 
@@ -41,16 +41,16 @@ Uma aplicação de timer para controle de ciclos de projetos desenvolvida com Re
 
 ---
 
-## 🚧 Configurando o ambiente de desenvolvimento
+## 🌱 Configurando o ambiente
 
-### **Requisitos**
+### 🚧 **Requisitos**
 
 > Será necessário instalar os items abaixo para clonar e executar o projeto corretamente!
 
 - [Git](https://git-scm.com)
 - [Node](https://nodejs.org)
 
-### **Clonando e executando a aplicação**
+### ⏩ **Clonando e executando a aplicação**
 
 ```bash
 # Primeiro clone o repositório utilizando git:
