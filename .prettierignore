@@ -1,0 +1,11 @@
+/**/*.*
+
+!src/**/*.js
+!src/**/*.ts
+!src/**/*.jsx
+!src/**/*.tsx
+
+!src/**/*.css
+!src/**/*.scss
+
+!prisma/**/*.prisma
