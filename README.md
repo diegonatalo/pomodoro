@@ -45,7 +45,7 @@ Uma aplicação de timer para controle de ciclos de projetos desenvolvida com Re
 
 ### 🚧 **Requisitos**
 
-> Será necessário instalar os items abaixo para clonar e executar o projeto corretamente!
+> Será necessário instalar os itens abaixo para clonar e executar o projeto corretamente!
 
 - [Git](https://git-scm.com)
 - [Node](https://nodejs.org)
