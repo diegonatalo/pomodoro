@@ -9,24 +9,25 @@
 </p>
 
 <h1 align="center">
-    Pomodoro
+  Pomodoro
 </h1>
 <p align="center">Timer para controle de ciclos de atividades.</p>
 
 <p align="center">
- <a href="#-sobre-o-projeto">Sobre o Projeto</a> •
- <a href="#-tecnologias">Tecnologias</a> •
+  <a href="#-sobre-o-projeto">Sobre o Projeto</a> •
+  <a href="#-tecnologias">Tecnologias</a> •
   <a href="#-configurando-o-ambiente">Configurando o Ambiente</a> •
- <a href="#-licença">Licença</a>
+  <a href="#-trabalhos-futuros">Trabalhos Futuros</a> •
+  <a href="#-licença">Licença</a>
 </p>
 
 ## 📌 Sobre o projeto
 
-Uma aplicação de timer para controle de ciclos de projetos desenvolvida com React e Typescript. 
+Está aplicação foi desenvolvida para auxiliar o usuário a aplicar o método de gerenciamento de tempo conhecido como Pomodoro. Inicialmente o usuário terá acesso a uma tela contendo um timer e poderá por meio de um formulário cadastrar um novo ciclo de atividade, após o início do ciclo, o mesmo pode ser interrompido caso o usuário pressione o botão antes que o timer chegue a zero. O histórico contendo todos os ciclos finalizados, interrompidos e o atual ciclo em adamento pode ser acessado pelo menu no topo direito da aplicação.
 
 ---
 
-## 💻 Tecnologias
+## 🧩 Tecnologias
 
 - [ReactJS](https://reactjs.org/)
 - [Typescript](https://www.typescriptlang.org/)
@@ -36,7 +37,7 @@ Uma aplicação de timer para controle de ciclos de projetos desenvolvida com Re
 - [Phosphor Icons](https://phosphoricons.com/)
 - [Date FNS](https://date-fns.org/)
 - [Immer](https://github.com/immerjs/immer)
-- [Zod](https://github.com/colinhacks/zod) 
+- [Zod](https://github.com/colinhacks/zod)
 - [Vite](https://vitejs.dev/)
 
 ---
@@ -65,6 +66,13 @@ $ npm i
 # Por fim, inicie a aplicação:
 $ npm run dev
 ```
+
+---
+
+## 💭 Trabalhos futuros
+
+- Desenvolver tema claro para a interface
+- Adicionar a opção "Troca de tema" no topo esquerdo da aplicação
 
 ---
 

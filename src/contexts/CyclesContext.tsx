@@ -1,3 +1,10 @@
+import { Cycle } from '@/@types/Cycle'
+import {
+  addNewCycleAction,
+  interruptCurrentCycleAction,
+  markCurrentCycleAsFinishedAction
+} from '@/reducers/cycles/actions'
+import { CyclesReducer } from '@/reducers/cycles/reducer'
 import { differenceInSeconds } from 'date-fns'
 import {
   createContext,
@@ -6,12 +13,7 @@ import {
   useReducer,
   useState
 } from 'react'
-import {
-  addNewCycleAction,
-  interruptCurrentCycleAction,
-  markCurrentCycleAsFinishedAction
-} from '../reducers/cycles/actions'
-import { Cycle, CyclesReducer } from '../reducers/cycles/reducer'
+import { v4 as uuidv4 } from 'uuid'
 
 interface CreateCycleData {
   task: string
@@ -81,10 +83,8 @@ export function CyclesContextProvider({
   }
 
   function createNewCycle(data: CreateCycleData) {
-    const id = String(new Date().getTime())
-
     const newCycle: Cycle = {
-      id: id,
+      id: uuidv4(),
       task: data.task,
       minutesAmount: data.minutesAmount,
       startDate: new Date()

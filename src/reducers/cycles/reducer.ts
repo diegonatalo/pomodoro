@@ -1,14 +1,6 @@
+import { Cycle } from '@/@types/Cycle'
 import { produce } from 'immer'
 import { ActionTypes } from './actions'
-
-export interface Cycle {
-  id: string
-  task: string
-  minutesAmount: number
-  startDate: Date
-  interruptedDate?: Date
-  finishedDate?: Date
-}
 
 interface CyclesState {
   cycles: Cycle[]
